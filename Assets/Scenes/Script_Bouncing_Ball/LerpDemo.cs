@@ -23,5 +23,6 @@ public class LerpDemo : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.Lerp(start.position, end.position, curve.Evaluate(t));
+
     }
 }
